@@ -1,0 +1,501 @@
+OrderID,OrderDate,ProductID,ProductName,Category,Supplier,UnitsOrdered,UnitPrice,Warehouse,Region,DeliveryDate,UnitsDelivered
+ORD1000,2023-04-13,P000,Turmeric,Spices,Supplier A,11,26.22,Warehouse 2,South,2023-04-21,10
+ORD1001,2023-12-15,P001,Pickles,Condiments,Supplier B,41,23.53,Warehouse 2,North,2023-12-23,38
+ORD1002,2023-09-28,P002,Pickles,Condiments,Supplier B,93,20.7,Warehouse 1,West,2023-10-06,92
+ORD1003,2023-04-17,P003,Red Chilli,Condiments,Supplier B,33,46.83,Warehouse 1,South,2023-04-23,32
+ORD1004,2023-03-13,P004,Turmeric,Condiments,Supplier B,21,42.38,Warehouse 1,South,2023-03-19,21
+ORD1005,2023-07-08,P005,Garam Masala,Condiments,Supplier A,59,48.43,Warehouse 2,North,2023-07-12,59
+ORD1006,2023-01-21,P006,Pickles,Spices,Supplier C,44,10.59,Warehouse 1,West,2023-01-26,44
+ORD1007,2023-04-13,P007,Dhaniya,Spices,Supplier A,42,37.89,Warehouse 1,East,2023-04-22,42
+ORD1008,2023-05-02,P008,Turmeric,Spices,Supplier C,42,47.23,Warehouse 2,West,2023-05-05,38
+ORD1009,2023-08-03,P009,Turmeric,Spices,Supplier A,70,13.16,Warehouse 2,West,2023-08-11,70
+ORD1010,2023-11-27,P000,Garam Masala,Condiments,Supplier A,60,7.99,Warehouse 1,East,2023-12-04,56
+ORD1011,2023-03-29,P001,Pickles,Condiments,Supplier C,52,38.35,Warehouse 1,North,2023-04-03,48
+ORD1012,2023-04-10,P002,Pickles,Spices,Supplier B,21,30.85,Warehouse 1,West,2023-04-17,21
+ORD1013,2023-12-26,P003,Pickles,Condiments,Supplier B,76,42.88,Warehouse 1,East,2023-12-30,74
+ORD1014,2023-06-01,P004,Garam Masala,Condiments,Supplier C,74,11.29,Warehouse 1,South,2023-06-05,71
+ORD1015,2023-05-11,P005,Garam Masala,Spices,Supplier C,42,40.79,Warehouse 2,West,2023-05-15,41
+ORD1016,2023-05-30,P006,Garam Masala,Spices,Supplier B,49,14.07,Warehouse 2,East,2023-06-01,45
+ORD1017,2023-11-05,P007,Turmeric,Condiments,Supplier A,83,12.36,Warehouse 2,West,2023-11-12,80
+ORD1018,2023-09-15,P008,Red Chilli,Condiments,Supplier C,52,12.39,Warehouse 1,West,2023-09-20,50
+ORD1019,2023-12-10,P009,Pickles,Spices,Supplier C,53,41.66,Warehouse 1,North,2023-12-19,52
+ORD1020,2023-10-21,P000,Dhaniya,Spices,Supplier A,38,34.93,Warehouse 1,South,2023-10-26,37
+ORD1021,2023-07-11,P001,Pickles,Condiments,Supplier A,22,28.54,Warehouse 1,North,2023-07-17,18
+ORD1022,2023-10-04,P002,Pickles,Condiments,Supplier B,21,21.15,Warehouse 2,South,2023-10-10,21
+ORD1023,2023-06-10,P003,Pickles,Condiments,Supplier A,55,44.47,Warehouse 1,East,2023-06-18,53
+ORD1024,2023-11-10,P004,Dhaniya,Condiments,Supplier C,11,22.66,Warehouse 1,North,2023-11-19,7
+ORD1025,2023-01-22,P005,Red Chilli,Condiments,Supplier B,44,41.75,Warehouse 1,North,2023-01-28,42
+ORD1026,2023-09-10,P006,Red Chilli,Condiments,Supplier B,96,24.76,Warehouse 2,North,2023-09-14,96
+ORD1027,2023-08-24,P007,Red Chilli,Spices,Supplier B,90,21.96,Warehouse 1,East,2023-08-29,90
+ORD1028,2023-12-11,P008,Red Chilli,Spices,Supplier C,99,25.82,Warehouse 1,West,2023-12-18,95
+ORD1029,2023-02-18,P009,Pickles,Condiments,Supplier C,17,18.56,Warehouse 2,East,2023-02-22,17
+ORD1030,2023-02-28,P000,Pickles,Spices,Supplier A,35,38.64,Warehouse 2,North,2023-03-02,32
+ORD1031,2023-06-19,P001,Dhaniya,Condiments,Supplier B,83,27.62,Warehouse 1,West,2023-06-25,82
+ORD1032,2023-07-07,P002,Red Chilli,Spices,Supplier C,99,15.45,Warehouse 1,North,2023-07-11,95
+ORD1033,2023-09-28,P003,Garam Masala,Condiments,Supplier C,43,45.48,Warehouse 2,West,2023-10-02,41
+ORD1034,2023-07-09,P004,Dhaniya,Condiments,Supplier B,16,22.28,Warehouse 2,East,2023-07-11,13
+ORD1035,2023-06-24,P005,Pickles,Condiments,Supplier A,77,29.46,Warehouse 2,West,2023-06-27,73
+ORD1036,2023-02-20,P006,Garam Masala,Condiments,Supplier A,67,45.79,Warehouse 1,North,2023-02-25,67
+ORD1037,2023-12-30,P007,Turmeric,Spices,Supplier A,84,33.09,Warehouse 2,West,2024-01-06,84
+ORD1038,2023-02-24,P008,Garam Masala,Condiments,Supplier C,38,10.26,Warehouse 2,East,2023-03-04,38
+ORD1039,2023-09-01,P009,Garam Masala,Condiments,Supplier A,45,47.29,Warehouse 1,North,2023-09-04,45
+ORD1040,2023-11-16,P000,Turmeric,Spices,Supplier A,98,33.25,Warehouse 1,East,2023-11-22,96
+ORD1041,2023-05-11,P001,Dhaniya,Condiments,Supplier B,30,20.07,Warehouse 2,South,2023-05-15,27
+ORD1042,2023-11-03,P002,Pickles,Condiments,Supplier B,45,11.27,Warehouse 2,South,2023-11-12,44
+ORD1043,2023-05-15,P003,Red Chilli,Condiments,Supplier C,19,40.73,Warehouse 2,West,2023-05-17,17
+ORD1044,2023-01-21,P004,Garam Masala,Condiments,Supplier A,82,32.9,Warehouse 1,South,2023-01-23,80
+ORD1045,2023-11-25,P005,Pickles,Condiments,Supplier C,33,29.01,Warehouse 2,South,2023-12-04,32
+ORD1046,2023-06-16,P006,Pickles,Condiments,Supplier A,73,45.23,Warehouse 2,West,2023-06-21,72
+ORD1047,2023-10-01,P007,Dhaniya,Condiments,Supplier A,58,40.49,Warehouse 2,West,2023-10-04,58
+ORD1048,2023-03-30,P008,Dhaniya,Spices,Supplier B,45,11.83,Warehouse 2,East,2023-04-07,43
+ORD1049,2023-11-12,P009,Garam Masala,Condiments,Supplier A,91,19.03,Warehouse 2,North,2023-11-17,87
+ORD1050,2023-01-14,P000,Red Chilli,Condiments,Supplier C,33,16.18,Warehouse 1,East,2023-01-23,32
+ORD1051,2023-08-30,P001,Red Chilli,Spices,Supplier B,32,38.48,Warehouse 2,East,2023-09-03,31
+ORD1052,2023-09-22,P002,Pickles,Spices,Supplier C,71,6.51,Warehouse 2,West,2023-10-01,68
+ORD1053,2023-12-12,P003,Garam Masala,Condiments,Supplier A,46,30.65,Warehouse 1,East,2023-12-17,42
+ORD1054,2023-02-22,P004,Turmeric,Spices,Supplier B,21,39.31,Warehouse 1,West,2023-03-01,17
+ORD1055,2023-12-06,P005,Dhaniya,Spices,Supplier C,64,44.45,Warehouse 1,North,2023-12-08,63
+ORD1056,2023-04-02,P006,Pickles,Spices,Supplier B,22,20.39,Warehouse 1,South,2023-04-04,22
+ORD1057,2023-09-21,P007,Red Chilli,Condiments,Supplier A,32,41.96,Warehouse 2,South,2023-09-27,29
+ORD1058,2023-02-04,P008,Garam Masala,Condiments,Supplier C,98,9.98,Warehouse 1,East,2023-02-10,94
+ORD1059,2023-07-25,P009,Turmeric,Spices,Supplier B,39,43.09,Warehouse 2,East,2023-08-03,38
+ORD1060,2023-03-22,P000,Garam Masala,Condiments,Supplier C,26,10.74,Warehouse 2,North,2023-03-30,22
+ORD1061,2023-02-19,P001,Red Chilli,Spices,Supplier A,71,22.88,Warehouse 2,East,2023-02-23,68
+ORD1062,2023-12-26,P002,Dhaniya,Spices,Supplier B,93,40.88,Warehouse 1,East,2024-01-02,90
+ORD1063,2023-01-02,P003,Garam Masala,Spices,Supplier A,98,11.75,Warehouse 1,North,2023-01-05,96
+ORD1064,2023-02-23,P004,Dhaniya,Condiments,Supplier C,95,15.32,Warehouse 1,South,2023-02-28,94
+ORD1065,2023-04-16,P005,Turmeric,Spices,Supplier C,22,37.5,Warehouse 2,South,2023-04-24,19
+ORD1066,2023-09-17,P006,Red Chilli,Condiments,Supplier C,68,37.4,Warehouse 2,East,2023-09-21,66
+ORD1067,2023-11-06,P007,Dhaniya,Condiments,Supplier C,28,33.85,Warehouse 2,North,2023-11-12,26
+ORD1068,2023-07-10,P008,Dhaniya,Condiments,Supplier B,58,36.23,Warehouse 1,West,2023-07-19,54
+ORD1069,2023-08-06,P009,Turmeric,Condiments,Supplier C,21,29.42,Warehouse 2,East,2023-08-11,17
+ORD1070,2023-02-13,P000,Garam Masala,Condiments,Supplier B,70,16.33,Warehouse 1,North,2023-02-19,68
+ORD1071,2023-06-11,P001,Dhaniya,Condiments,Supplier B,28,20.56,Warehouse 2,East,2023-06-20,24
+ORD1072,2023-07-21,P002,Pickles,Spices,Supplier B,85,13.17,Warehouse 2,North,2023-07-26,82
+ORD1073,2023-09-27,P003,Garam Masala,Spices,Supplier B,18,45.88,Warehouse 2,South,2023-09-30,18
+ORD1074,2023-12-17,P004,Pickles,Condiments,Supplier B,80,31.25,Warehouse 1,South,2023-12-21,77
+ORD1075,2023-10-31,P005,Garam Masala,Condiments,Supplier B,37,23.04,Warehouse 2,North,2023-11-05,35
+ORD1076,2023-09-28,P006,Red Chilli,Spices,Supplier B,87,25.79,Warehouse 2,West,2023-10-05,85
+ORD1077,2023-08-03,P007,Red Chilli,Condiments,Supplier A,61,47.63,Warehouse 1,South,2023-08-11,58
+ORD1078,2023-09-09,P008,Dhaniya,Condiments,Supplier A,92,11.9,Warehouse 2,West,2023-09-11,88
+ORD1079,2023-07-09,P009,Dhaniya,Spices,Supplier A,25,31.38,Warehouse 1,East,2023-07-16,21
+ORD1080,2023-10-23,P000,Pickles,Spices,Supplier B,78,27.76,Warehouse 2,East,2023-10-30,76
+ORD1081,2023-08-01,P001,Dhaniya,Spices,Supplier A,21,32.52,Warehouse 2,West,2023-08-09,20
+ORD1082,2023-07-27,P002,Garam Masala,Spices,Supplier A,34,5.81,Warehouse 1,South,2023-07-29,30
+ORD1083,2023-08-25,P003,Turmeric,Condiments,Supplier B,61,44.25,Warehouse 1,North,2023-09-01,58
+ORD1084,2023-12-04,P004,Garam Masala,Condiments,Supplier B,94,46.95,Warehouse 1,South,2023-12-09,90
+ORD1085,2023-02-22,P005,Turmeric,Condiments,Supplier A,62,30.43,Warehouse 1,East,2023-02-27,59
+ORD1086,2023-10-07,P006,Turmeric,Condiments,Supplier C,32,36.35,Warehouse 1,East,2023-10-12,30
+ORD1087,2023-08-05,P007,Garam Masala,Spices,Supplier A,25,46.51,Warehouse 1,West,2023-08-07,21
+ORD1088,2023-09-09,P008,Garam Masala,Spices,Supplier B,66,36.83,Warehouse 2,East,2023-09-16,63
+ORD1089,2023-07-07,P009,Pickles,Spices,Supplier A,48,11.86,Warehouse 1,West,2023-07-16,46
+ORD1090,2023-02-10,P000,Garam Masala,Spices,Supplier B,62,30.93,Warehouse 1,East,2023-02-12,61
+ORD1091,2023-06-06,P001,Garam Masala,Condiments,Supplier A,51,32.3,Warehouse 1,West,2023-06-11,48
+ORD1092,2023-01-15,P002,Turmeric,Condiments,Supplier C,67,24.09,Warehouse 2,North,2023-01-23,66
+ORD1093,2023-10-28,P003,Garam Masala,Condiments,Supplier B,48,38.14,Warehouse 1,East,2023-11-04,47
+ORD1094,2023-03-06,P004,Garam Masala,Condiments,Supplier C,23,47.05,Warehouse 2,East,2023-03-13,23
+ORD1095,2023-12-11,P005,Turmeric,Condiments,Supplier A,14,46.65,Warehouse 2,North,2023-12-17,10
+ORD1096,2023-11-23,P006,Turmeric,Spices,Supplier A,44,25.29,Warehouse 2,South,2023-11-29,41
+ORD1097,2023-01-09,P007,Turmeric,Spices,Supplier A,96,10.1,Warehouse 2,South,2023-01-12,95
+ORD1098,2023-12-10,P008,Dhaniya,Condiments,Supplier A,84,49.32,Warehouse 1,South,2023-12-19,84
+ORD1099,2023-05-09,P009,Turmeric,Condiments,Supplier B,27,42.75,Warehouse 2,East,2023-05-18,25
+ORD1100,2023-05-16,P000,Garam Masala,Spices,Supplier B,85,10.61,Warehouse 1,South,2023-05-20,82
+ORD1101,2023-03-04,P001,Pickles,Spices,Supplier B,18,46.44,Warehouse 1,East,2023-03-13,17
+ORD1102,2023-05-19,P002,Dhaniya,Condiments,Supplier C,83,44.15,Warehouse 2,South,2023-05-25,79
+ORD1103,2023-03-22,P003,Turmeric,Spices,Supplier C,67,28.35,Warehouse 1,East,2023-03-24,67
+ORD1104,2023-06-12,P004,Dhaniya,Condiments,Supplier B,26,31.61,Warehouse 1,North,2023-06-21,25
+ORD1105,2023-10-16,P005,Pickles,Spices,Supplier A,16,22.96,Warehouse 2,West,2023-10-22,12
+ORD1106,2023-09-18,P006,Turmeric,Spices,Supplier C,55,7.46,Warehouse 1,East,2023-09-21,54
+ORD1107,2023-08-19,P007,Turmeric,Spices,Supplier C,22,20.08,Warehouse 1,North,2023-08-26,19
+ORD1108,2023-02-10,P008,Turmeric,Condiments,Supplier B,49,41.13,Warehouse 2,East,2023-02-19,46
+ORD1109,2023-01-28,P009,Pickles,Spices,Supplier C,51,5.21,Warehouse 1,South,2023-01-31,48
+ORD1110,2023-05-15,P000,Pickles,Condiments,Supplier B,18,20.01,Warehouse 2,South,2023-05-22,18
+ORD1111,2023-07-20,P001,Dhaniya,Spices,Supplier B,59,22.92,Warehouse 1,East,2023-07-28,56
+ORD1112,2023-11-24,P002,Red Chilli,Spices,Supplier B,36,29.18,Warehouse 1,East,2023-12-02,32
+ORD1113,2023-09-25,P003,Pickles,Condiments,Supplier C,75,46.39,Warehouse 2,South,2023-10-02,74
+ORD1114,2023-02-02,P004,Pickles,Condiments,Supplier B,14,20.59,Warehouse 2,West,2023-02-11,12
+ORD1115,2023-02-17,P005,Red Chilli,Spices,Supplier C,38,20.61,Warehouse 2,East,2023-02-21,34
+ORD1116,2023-03-03,P006,Red Chilli,Spices,Supplier A,46,38.19,Warehouse 2,South,2023-03-09,42
+ORD1117,2023-08-04,P007,Pickles,Condiments,Supplier A,47,25.35,Warehouse 1,South,2023-08-06,44
+ORD1118,2023-10-20,P008,Red Chilli,Spices,Supplier A,92,15.11,Warehouse 2,West,2023-10-22,92
+ORD1119,2023-04-09,P009,Turmeric,Spices,Supplier C,17,25.36,Warehouse 1,North,2023-04-14,16
+ORD1120,2023-06-21,P000,Dhaniya,Condiments,Supplier A,74,11.34,Warehouse 2,South,2023-06-28,74
+ORD1121,2023-12-26,P001,Turmeric,Condiments,Supplier A,95,12.94,Warehouse 2,East,2023-12-28,94
+ORD1122,2023-08-02,P002,Dhaniya,Condiments,Supplier B,26,27.43,Warehouse 2,East,2023-08-11,25
+ORD1123,2023-02-04,P003,Garam Masala,Spices,Supplier C,80,23.85,Warehouse 1,South,2023-02-08,80
+ORD1124,2023-08-15,P004,Garam Masala,Spices,Supplier C,98,46.17,Warehouse 2,South,2023-08-22,94
+ORD1125,2023-04-11,P005,Garam Masala,Condiments,Supplier C,54,21.31,Warehouse 2,South,2023-04-15,53
+ORD1126,2023-05-11,P006,Red Chilli,Spices,Supplier A,13,31.13,Warehouse 1,West,2023-05-20,13
+ORD1127,2023-09-14,P007,Dhaniya,Spices,Supplier A,45,33.45,Warehouse 2,West,2023-09-16,44
+ORD1128,2023-01-05,P008,Dhaniya,Condiments,Supplier B,79,5.59,Warehouse 2,North,2023-01-07,77
+ORD1129,2023-08-06,P009,Turmeric,Spices,Supplier A,40,34.86,Warehouse 2,South,2023-08-11,36
+ORD1130,2023-09-12,P000,Turmeric,Spices,Supplier C,28,13.01,Warehouse 1,South,2023-09-14,25
+ORD1131,2023-12-25,P001,Turmeric,Spices,Supplier A,70,48.25,Warehouse 1,East,2024-01-01,69
+ORD1132,2023-10-10,P002,Garam Masala,Condiments,Supplier C,63,11.69,Warehouse 2,South,2023-10-19,61
+ORD1133,2023-07-26,P003,Turmeric,Condiments,Supplier A,48,23.66,Warehouse 1,North,2023-08-03,45
+ORD1134,2023-01-15,P004,Garam Masala,Condiments,Supplier A,83,8.84,Warehouse 1,North,2023-01-24,80
+ORD1135,2023-12-12,P005,Turmeric,Condiments,Supplier C,99,49.86,Warehouse 2,North,2023-12-19,98
+ORD1136,2023-02-11,P006,Dhaniya,Spices,Supplier B,28,27.6,Warehouse 1,East,2023-02-18,28
+ORD1137,2023-06-28,P007,Dhaniya,Condiments,Supplier A,48,31.79,Warehouse 2,West,2023-07-03,47
+ORD1138,2023-03-04,P008,Red Chilli,Condiments,Supplier A,76,8.02,Warehouse 2,West,2023-03-09,74
+ORD1139,2023-12-18,P009,Pickles,Condiments,Supplier C,54,38.75,Warehouse 1,South,2023-12-20,51
+ORD1140,2023-08-19,P000,Garam Masala,Spices,Supplier C,22,14.45,Warehouse 2,North,2023-08-22,21
+ORD1141,2023-08-29,P001,Turmeric,Condiments,Supplier B,67,45.41,Warehouse 2,South,2023-09-07,67
+ORD1142,2023-02-21,P002,Garam Masala,Condiments,Supplier C,29,14.23,Warehouse 1,West,2023-03-02,28
+ORD1143,2023-04-06,P003,Dhaniya,Spices,Supplier A,81,13.58,Warehouse 1,South,2023-04-09,77
+ORD1144,2023-08-10,P004,Garam Masala,Condiments,Supplier A,70,6.64,Warehouse 2,South,2023-08-15,70
+ORD1145,2023-08-19,P005,Turmeric,Spices,Supplier A,48,26.24,Warehouse 1,East,2023-08-21,46
+ORD1146,2023-08-25,P006,Turmeric,Spices,Supplier B,10,30.42,Warehouse 1,North,2023-08-28,7
+ORD1147,2023-05-23,P007,Red Chilli,Condiments,Supplier B,12,7.96,Warehouse 2,West,2023-05-25,11
+ORD1148,2023-06-20,P008,Dhaniya,Condiments,Supplier A,86,39.9,Warehouse 2,South,2023-06-22,86
+ORD1149,2023-01-29,P009,Turmeric,Condiments,Supplier B,71,25.4,Warehouse 1,West,2023-01-31,67
+ORD1150,2023-02-05,P000,Turmeric,Condiments,Supplier A,72,28.6,Warehouse 2,West,2023-02-11,72
+ORD1151,2023-01-13,P001,Dhaniya,Condiments,Supplier C,34,24.83,Warehouse 1,North,2023-01-20,30
+ORD1152,2023-06-09,P002,Pickles,Condiments,Supplier C,65,23.03,Warehouse 1,East,2023-06-11,63
+ORD1153,2023-11-23,P003,Pickles,Condiments,Supplier B,42,30.18,Warehouse 2,East,2023-11-29,39
+ORD1154,2023-07-06,P004,Pickles,Spices,Supplier B,47,11.99,Warehouse 1,South,2023-07-11,45
+ORD1155,2023-08-31,P005,Pickles,Condiments,Supplier C,15,13.19,Warehouse 2,South,2023-09-03,14
+ORD1156,2023-03-27,P006,Red Chilli,Condiments,Supplier A,67,43.78,Warehouse 1,East,2023-04-03,67
+ORD1157,2023-10-11,P007,Red Chilli,Condiments,Supplier B,53,47.58,Warehouse 2,East,2023-10-19,49
+ORD1158,2023-03-07,P008,Turmeric,Condiments,Supplier C,54,21.8,Warehouse 1,West,2023-03-10,50
+ORD1159,2023-06-19,P009,Dhaniya,Spices,Supplier B,41,17.18,Warehouse 2,South,2023-06-26,41
+ORD1160,2023-02-14,P000,Pickles,Spices,Supplier C,54,33.98,Warehouse 2,North,2023-02-22,54
+ORD1161,2023-03-03,P001,Red Chilli,Condiments,Supplier A,70,23.39,Warehouse 1,South,2023-03-06,69
+ORD1162,2023-05-14,P002,Turmeric,Spices,Supplier B,56,6.14,Warehouse 1,East,2023-05-21,54
+ORD1163,2023-10-11,P003,Turmeric,Condiments,Supplier A,30,12.03,Warehouse 2,West,2023-10-14,26
+ORD1164,2023-01-28,P004,Red Chilli,Spices,Supplier B,89,37.22,Warehouse 2,East,2023-01-31,88
+ORD1165,2023-04-18,P005,Red Chilli,Spices,Supplier B,94,34.65,Warehouse 1,North,2023-04-26,92
+ORD1166,2023-02-13,P006,Garam Masala,Condiments,Supplier C,84,6.22,Warehouse 1,North,2023-02-16,83
+ORD1167,2023-12-06,P007,Red Chilli,Spices,Supplier B,45,14.99,Warehouse 2,East,2023-12-09,41
+ORD1168,2023-10-13,P008,Red Chilli,Condiments,Supplier B,28,15.4,Warehouse 1,South,2023-10-21,28
+ORD1169,2023-11-27,P009,Turmeric,Spices,Supplier C,29,35.24,Warehouse 2,North,2023-12-02,29
+ORD1170,2023-05-08,P000,Turmeric,Spices,Supplier A,66,5.89,Warehouse 2,East,2023-05-10,64
+ORD1171,2023-12-14,P001,Turmeric,Spices,Supplier B,27,9.68,Warehouse 1,West,2023-12-23,24
+ORD1172,2023-08-19,P002,Turmeric,Condiments,Supplier B,56,41.0,Warehouse 2,North,2023-08-23,54
+ORD1173,2023-07-09,P003,Pickles,Condiments,Supplier A,58,13.03,Warehouse 1,West,2023-07-15,55
+ORD1174,2023-08-13,P004,Garam Masala,Condiments,Supplier C,23,34.37,Warehouse 2,West,2023-08-17,22
+ORD1175,2023-10-10,P005,Turmeric,Spices,Supplier B,24,15.72,Warehouse 1,East,2023-10-14,23
+ORD1176,2023-05-01,P006,Garam Masala,Spices,Supplier C,40,9.47,Warehouse 2,South,2023-05-08,36
+ORD1177,2023-04-26,P007,Turmeric,Spices,Supplier C,10,15.94,Warehouse 2,West,2023-04-28,7
+ORD1178,2023-08-21,P008,Garam Masala,Spices,Supplier A,63,37.5,Warehouse 2,North,2023-08-28,59
+ORD1179,2023-09-16,P009,Turmeric,Condiments,Supplier B,12,43.51,Warehouse 2,North,2023-09-18,12
+ORD1180,2023-12-25,P000,Pickles,Spices,Supplier A,25,42.36,Warehouse 2,North,2024-01-02,22
+ORD1181,2023-07-17,P001,Pickles,Spices,Supplier C,96,22.87,Warehouse 1,North,2023-07-25,94
+ORD1182,2023-05-17,P002,Garam Masala,Spices,Supplier B,66,35.06,Warehouse 1,East,2023-05-26,66
+ORD1183,2023-11-14,P003,Pickles,Condiments,Supplier C,84,14.22,Warehouse 1,North,2023-11-16,84
+ORD1184,2023-06-14,P004,Garam Masala,Spices,Supplier A,21,18.19,Warehouse 2,West,2023-06-17,19
+ORD1185,2023-08-13,P005,Turmeric,Condiments,Supplier B,83,45.34,Warehouse 2,West,2023-08-18,83
+ORD1186,2023-11-03,P006,Dhaniya,Condiments,Supplier B,25,5.59,Warehouse 2,West,2023-11-12,22
+ORD1187,2023-08-22,P007,Red Chilli,Spices,Supplier C,81,8.85,Warehouse 1,South,2023-08-31,77
+ORD1188,2023-06-21,P008,Pickles,Spices,Supplier B,85,14.35,Warehouse 1,North,2023-06-24,85
+ORD1189,2023-06-01,P009,Red Chilli,Condiments,Supplier A,33,6.19,Warehouse 2,West,2023-06-06,30
+ORD1190,2023-11-11,P000,Red Chilli,Condiments,Supplier B,37,13.16,Warehouse 1,East,2023-11-18,36
+ORD1191,2023-06-09,P001,Garam Masala,Condiments,Supplier B,17,31.24,Warehouse 2,South,2023-06-14,14
+ORD1192,2023-04-06,P002,Dhaniya,Spices,Supplier A,45,23.96,Warehouse 1,East,2023-04-13,41
+ORD1193,2023-08-21,P003,Dhaniya,Spices,Supplier A,99,45.17,Warehouse 1,North,2023-08-29,96
+ORD1194,2023-06-29,P004,Red Chilli,Spices,Supplier B,17,41.78,Warehouse 2,North,2023-07-03,15
+ORD1195,2023-04-23,P005,Dhaniya,Spices,Supplier C,67,20.38,Warehouse 1,North,2023-05-01,63
+ORD1196,2023-11-14,P006,Turmeric,Spices,Supplier A,69,16.67,Warehouse 2,North,2023-11-22,68
+ORD1197,2023-02-21,P007,Pickles,Condiments,Supplier C,59,22.09,Warehouse 2,East,2023-02-25,57
+ORD1198,2023-09-25,P008,Pickles,Condiments,Supplier B,37,31.56,Warehouse 1,South,2023-09-30,34
+ORD1199,2023-10-22,P009,Garam Masala,Condiments,Supplier C,50,17.06,Warehouse 2,South,2023-10-31,46
+ORD1200,2023-04-23,P000,Dhaniya,Spices,Supplier A,73,33.09,Warehouse 2,South,2023-04-28,72
+ORD1201,2023-04-11,P001,Turmeric,Condiments,Supplier A,36,23.42,Warehouse 1,East,2023-04-18,34
+ORD1202,2023-04-23,P002,Garam Masala,Spices,Supplier A,72,29.84,Warehouse 1,South,2023-04-26,71
+ORD1203,2023-03-22,P003,Red Chilli,Condiments,Supplier B,26,24.63,Warehouse 2,South,2023-03-29,23
+ORD1204,2023-07-06,P004,Pickles,Spices,Supplier A,82,18.25,Warehouse 2,West,2023-07-09,81
+ORD1205,2023-04-23,P005,Garam Masala,Spices,Supplier B,42,47.68,Warehouse 2,North,2023-05-01,42
+ORD1206,2023-01-02,P006,Red Chilli,Spices,Supplier C,93,39.36,Warehouse 1,East,2023-01-06,91
+ORD1207,2023-05-10,P007,Garam Masala,Spices,Supplier A,86,11.31,Warehouse 1,East,2023-05-18,85
+ORD1208,2023-08-08,P008,Garam Masala,Spices,Supplier C,38,44.08,Warehouse 1,South,2023-08-10,35
+ORD1209,2023-02-23,P009,Dhaniya,Condiments,Supplier B,22,26.93,Warehouse 1,East,2023-02-28,19
+ORD1210,2023-12-09,P000,Pickles,Condiments,Supplier B,55,45.25,Warehouse 2,West,2023-12-12,54
+ORD1211,2023-08-12,P001,Turmeric,Condiments,Supplier A,44,40.99,Warehouse 2,West,2023-08-19,41
+ORD1212,2023-08-13,P002,Dhaniya,Spices,Supplier C,15,24.13,Warehouse 2,East,2023-08-17,11
+ORD1213,2023-05-06,P003,Pickles,Condiments,Supplier B,91,6.01,Warehouse 1,South,2023-05-09,87
+ORD1214,2023-05-10,P004,Dhaniya,Spices,Supplier C,78,17.09,Warehouse 2,West,2023-05-17,74
+ORD1215,2023-02-22,P005,Pickles,Spices,Supplier B,56,29.37,Warehouse 1,West,2023-02-27,56
+ORD1216,2023-06-21,P006,Dhaniya,Condiments,Supplier A,34,33.51,Warehouse 2,South,2023-06-29,33
+ORD1217,2023-08-06,P007,Red Chilli,Spices,Supplier A,75,16.6,Warehouse 1,South,2023-08-11,75
+ORD1218,2023-06-09,P008,Dhaniya,Spices,Supplier A,19,11.27,Warehouse 2,West,2023-06-15,16
+ORD1219,2023-07-17,P009,Turmeric,Condiments,Supplier B,65,42.57,Warehouse 1,East,2023-07-19,65
+ORD1220,2023-09-04,P000,Dhaniya,Condiments,Supplier C,39,49.3,Warehouse 1,East,2023-09-10,36
+ORD1221,2023-11-20,P001,Red Chilli,Condiments,Supplier A,14,28.66,Warehouse 1,East,2023-11-24,11
+ORD1222,2023-07-22,P002,Pickles,Spices,Supplier A,42,12.73,Warehouse 1,West,2023-07-25,40
+ORD1223,2023-07-03,P003,Dhaniya,Spices,Supplier C,74,17.25,Warehouse 1,East,2023-07-07,70
+ORD1224,2023-05-03,P004,Garam Masala,Condiments,Supplier C,27,5.83,Warehouse 2,East,2023-05-11,24
+ORD1225,2023-09-12,P005,Red Chilli,Spices,Supplier C,58,46.14,Warehouse 2,North,2023-09-19,56
+ORD1226,2023-10-21,P006,Red Chilli,Spices,Supplier B,20,10.3,Warehouse 2,West,2023-10-26,16
+ORD1227,2023-10-07,P007,Garam Masala,Spices,Supplier C,94,30.94,Warehouse 1,East,2023-10-13,91
+ORD1228,2023-11-21,P008,Garam Masala,Spices,Supplier B,35,17.33,Warehouse 2,North,2023-11-30,32
+ORD1229,2023-04-08,P009,Dhaniya,Condiments,Supplier A,72,29.94,Warehouse 2,South,2023-04-14,72
+ORD1230,2023-07-17,P000,Red Chilli,Spices,Supplier C,98,34.31,Warehouse 1,West,2023-07-25,98
+ORD1231,2023-08-28,P001,Garam Masala,Spices,Supplier B,95,42.34,Warehouse 2,South,2023-09-03,91
+ORD1232,2023-05-24,P002,Pickles,Spices,Supplier C,68,14.29,Warehouse 1,South,2023-06-01,65
+ORD1233,2023-04-07,P003,Turmeric,Spices,Supplier C,36,5.49,Warehouse 2,South,2023-04-16,35
+ORD1234,2023-07-20,P004,Red Chilli,Spices,Supplier C,58,11.16,Warehouse 2,East,2023-07-24,58
+ORD1235,2023-05-04,P005,Red Chilli,Spices,Supplier C,86,45.5,Warehouse 1,South,2023-05-09,82
+ORD1236,2023-07-06,P006,Dhaniya,Spices,Supplier C,42,44.33,Warehouse 2,North,2023-07-09,39
+ORD1237,2023-11-22,P007,Red Chilli,Spices,Supplier C,10,31.88,Warehouse 2,North,2023-11-29,7
+ORD1238,2023-12-15,P008,Pickles,Condiments,Supplier C,30,32.02,Warehouse 1,West,2023-12-18,29
+ORD1239,2023-09-16,P009,Dhaniya,Spices,Supplier A,64,34.93,Warehouse 2,North,2023-09-20,60
+ORD1240,2023-05-28,P000,Garam Masala,Spices,Supplier A,15,12.89,Warehouse 2,North,2023-06-04,12
+ORD1241,2023-09-09,P001,Turmeric,Spices,Supplier C,90,46.15,Warehouse 1,East,2023-09-15,90
+ORD1242,2023-12-12,P002,Pickles,Spices,Supplier B,78,23.84,Warehouse 2,South,2023-12-21,77
+ORD1243,2023-05-27,P003,Turmeric,Condiments,Supplier A,14,22.24,Warehouse 2,East,2023-06-05,10
+ORD1244,2023-05-28,P004,Garam Masala,Spices,Supplier A,12,28.35,Warehouse 2,North,2023-05-30,11
+ORD1245,2023-12-18,P005,Garam Masala,Condiments,Supplier A,62,7.11,Warehouse 2,West,2023-12-22,62
+ORD1246,2023-07-18,P006,Pickles,Spices,Supplier A,32,12.48,Warehouse 1,East,2023-07-22,28
+ORD1247,2023-11-04,P007,Pickles,Condiments,Supplier A,62,38.21,Warehouse 2,West,2023-11-09,61
+ORD1248,2023-05-08,P008,Garam Masala,Condiments,Supplier C,46,8.73,Warehouse 1,East,2023-05-11,44
+ORD1249,2023-02-08,P009,Turmeric,Spices,Supplier C,83,32.14,Warehouse 2,South,2023-02-12,83
+ORD1250,2023-12-04,P000,Dhaniya,Condiments,Supplier C,83,16.04,Warehouse 2,West,2023-12-08,83
+ORD1251,2023-12-26,P001,Dhaniya,Spices,Supplier A,92,22.52,Warehouse 2,North,2024-01-01,92
+ORD1252,2023-05-09,P002,Red Chilli,Condiments,Supplier B,26,17.99,Warehouse 1,South,2023-05-15,24
+ORD1253,2023-09-24,P003,Red Chilli,Spices,Supplier A,94,21.01,Warehouse 2,South,2023-10-01,92
+ORD1254,2023-05-31,P004,Dhaniya,Condiments,Supplier B,87,37.36,Warehouse 1,South,2023-06-08,84
+ORD1255,2023-10-25,P005,Pickles,Condiments,Supplier C,82,18.37,Warehouse 1,South,2023-11-02,81
+ORD1256,2023-04-09,P006,Turmeric,Condiments,Supplier C,10,30.49,Warehouse 2,South,2023-04-11,7
+ORD1257,2023-09-20,P007,Garam Masala,Condiments,Supplier A,60,26.42,Warehouse 2,East,2023-09-28,59
+ORD1258,2023-09-09,P008,Dhaniya,Spices,Supplier A,54,34.87,Warehouse 2,East,2023-09-14,52
+ORD1259,2023-05-24,P009,Pickles,Condiments,Supplier C,86,47.16,Warehouse 1,East,2023-05-26,84
+ORD1260,2023-12-12,P000,Red Chilli,Condiments,Supplier C,13,37.97,Warehouse 1,South,2023-12-19,10
+ORD1261,2023-04-22,P001,Pickles,Spices,Supplier B,71,14.67,Warehouse 2,West,2023-04-28,67
+ORD1262,2023-03-01,P002,Turmeric,Condiments,Supplier C,74,6.4,Warehouse 1,South,2023-03-09,71
+ORD1263,2023-01-02,P003,Garam Masala,Spices,Supplier B,41,16.8,Warehouse 1,West,2023-01-05,40
+ORD1264,2023-10-31,P004,Red Chilli,Spices,Supplier A,43,31.78,Warehouse 2,West,2023-11-06,40
+ORD1265,2023-09-11,P005,Dhaniya,Condiments,Supplier A,81,7.31,Warehouse 1,South,2023-09-20,81
+ORD1266,2023-05-20,P006,Turmeric,Condiments,Supplier A,48,27.34,Warehouse 1,South,2023-05-25,47
+ORD1267,2023-02-06,P007,Dhaniya,Spices,Supplier A,35,31.86,Warehouse 2,North,2023-02-12,34
+ORD1268,2023-06-09,P008,Red Chilli,Condiments,Supplier A,43,20.04,Warehouse 1,West,2023-06-14,39
+ORD1269,2023-01-09,P009,Garam Masala,Spices,Supplier A,63,39.69,Warehouse 1,North,2023-01-14,61
+ORD1270,2023-08-21,P000,Red Chilli,Spices,Supplier A,12,9.8,Warehouse 1,East,2023-08-26,11
+ORD1271,2023-04-09,P001,Dhaniya,Condiments,Supplier A,59,8.38,Warehouse 2,East,2023-04-16,57
+ORD1272,2023-05-27,P002,Dhaniya,Spices,Supplier A,21,37.77,Warehouse 1,South,2023-06-01,18
+ORD1273,2023-10-31,P003,Pickles,Spices,Supplier B,74,27.3,Warehouse 2,North,2023-11-05,74
+ORD1274,2023-07-27,P004,Garam Masala,Condiments,Supplier B,63,35.98,Warehouse 2,East,2023-08-05,59
+ORD1275,2023-05-11,P005,Garam Masala,Spices,Supplier B,14,24.57,Warehouse 2,East,2023-05-14,12
+ORD1276,2023-06-01,P006,Pickles,Condiments,Supplier A,66,16.09,Warehouse 2,South,2023-06-03,65
+ORD1277,2023-02-23,P007,Turmeric,Condiments,Supplier C,26,41.86,Warehouse 2,West,2023-02-27,24
+ORD1278,2023-04-30,P008,Red Chilli,Condiments,Supplier A,56,40.97,Warehouse 1,North,2023-05-09,55
+ORD1279,2023-06-10,P009,Dhaniya,Condiments,Supplier B,32,36.26,Warehouse 1,East,2023-06-12,30
+ORD1280,2023-04-26,P000,Red Chilli,Condiments,Supplier A,88,17.25,Warehouse 2,West,2023-05-01,87
+ORD1281,2023-03-16,P001,Turmeric,Spices,Supplier C,94,31.56,Warehouse 2,North,2023-03-19,91
+ORD1282,2023-04-23,P002,Garam Masala,Spices,Supplier B,23,21.24,Warehouse 1,North,2023-04-29,22
+ORD1283,2023-04-14,P003,Pickles,Condiments,Supplier B,75,9.12,Warehouse 2,North,2023-04-17,74
+ORD1284,2023-12-06,P004,Pickles,Spices,Supplier B,84,46.28,Warehouse 2,North,2023-12-15,84
+ORD1285,2023-09-11,P005,Red Chilli,Condiments,Supplier B,60,11.16,Warehouse 2,West,2023-09-16,59
+ORD1286,2023-08-15,P006,Pickles,Condiments,Supplier B,47,47.76,Warehouse 1,West,2023-08-18,47
+ORD1287,2023-04-22,P007,Turmeric,Spices,Supplier C,73,25.07,Warehouse 1,East,2023-04-30,69
+ORD1288,2023-04-09,P008,Turmeric,Spices,Supplier B,47,13.33,Warehouse 2,South,2023-04-12,47
+ORD1289,2023-06-02,P009,Dhaniya,Condiments,Supplier C,59,29.39,Warehouse 1,East,2023-06-07,56
+ORD1290,2023-12-15,P000,Pickles,Spices,Supplier C,91,44.28,Warehouse 2,East,2023-12-22,91
+ORD1291,2023-12-04,P001,Turmeric,Condiments,Supplier A,39,37.95,Warehouse 1,West,2023-12-12,35
+ORD1292,2023-07-13,P002,Pickles,Condiments,Supplier B,88,41.3,Warehouse 2,West,2023-07-16,85
+ORD1293,2023-11-06,P003,Dhaniya,Spices,Supplier A,60,34.65,Warehouse 2,South,2023-11-10,58
+ORD1294,2023-06-12,P004,Dhaniya,Spices,Supplier B,72,36.15,Warehouse 1,West,2023-06-16,70
+ORD1295,2023-07-27,P005,Red Chilli,Condiments,Supplier A,61,43.21,Warehouse 2,South,2023-07-30,61
+ORD1296,2023-06-18,P006,Dhaniya,Spices,Supplier C,47,16.24,Warehouse 2,South,2023-06-25,47
+ORD1297,2023-06-10,P007,Red Chilli,Condiments,Supplier C,97,27.02,Warehouse 1,East,2023-06-16,93
+ORD1298,2023-03-09,P008,Turmeric,Condiments,Supplier C,88,14.95,Warehouse 2,West,2023-03-14,84
+ORD1299,2023-10-16,P009,Garam Masala,Condiments,Supplier B,39,49.45,Warehouse 2,North,2023-10-20,38
+ORD1300,2023-10-04,P000,Garam Masala,Spices,Supplier A,60,47.48,Warehouse 1,West,2023-10-10,56
+ORD1301,2023-10-31,P001,Red Chilli,Condiments,Supplier C,90,6.77,Warehouse 2,East,2023-11-03,89
+ORD1302,2023-05-15,P002,Garam Masala,Spices,Supplier B,14,36.75,Warehouse 2,East,2023-05-24,11
+ORD1303,2023-07-14,P003,Garam Masala,Condiments,Supplier A,38,46.64,Warehouse 1,South,2023-07-20,38
+ORD1304,2023-05-08,P004,Pickles,Spices,Supplier B,13,13.13,Warehouse 2,South,2023-05-16,10
+ORD1305,2023-02-02,P005,Red Chilli,Spices,Supplier C,19,30.56,Warehouse 1,North,2023-02-04,15
+ORD1306,2023-06-25,P006,Garam Masala,Condiments,Supplier B,65,46.2,Warehouse 2,East,2023-06-29,62
+ORD1307,2023-01-22,P007,Turmeric,Spices,Supplier B,26,6.53,Warehouse 1,East,2023-01-25,23
+ORD1308,2023-08-26,P008,Red Chilli,Spices,Supplier C,83,36.38,Warehouse 1,West,2023-09-04,80
+ORD1309,2023-06-07,P009,Garam Masala,Condiments,Supplier B,26,18.38,Warehouse 2,South,2023-06-12,22
+ORD1310,2023-02-07,P000,Turmeric,Condiments,Supplier C,93,46.6,Warehouse 1,East,2023-02-16,90
+ORD1311,2023-08-18,P001,Dhaniya,Condiments,Supplier B,97,48.7,Warehouse 2,North,2023-08-25,96
+ORD1312,2023-12-31,P002,Pickles,Spices,Supplier B,78,47.49,Warehouse 1,East,2024-01-08,74
+ORD1313,2023-02-20,P003,Red Chilli,Spices,Supplier C,43,26.34,Warehouse 1,East,2023-02-23,40
+ORD1314,2023-09-21,P004,Turmeric,Condiments,Supplier A,15,43.79,Warehouse 1,West,2023-09-26,11
+ORD1315,2023-10-10,P005,Dhaniya,Condiments,Supplier B,62,43.0,Warehouse 2,West,2023-10-17,60
+ORD1316,2023-01-27,P006,Pickles,Spices,Supplier B,75,19.36,Warehouse 1,South,2023-02-03,74
+ORD1317,2023-08-14,P007,Dhaniya,Condiments,Supplier C,86,42.3,Warehouse 1,West,2023-08-17,83
+ORD1318,2023-10-04,P008,Garam Masala,Condiments,Supplier A,52,6.67,Warehouse 2,North,2023-10-12,50
+ORD1319,2023-10-13,P009,Pickles,Condiments,Supplier C,84,31.83,Warehouse 2,East,2023-10-19,82
+ORD1320,2023-04-07,P000,Pickles,Spices,Supplier C,32,15.35,Warehouse 1,South,2023-04-13,28
+ORD1321,2023-10-11,P001,Turmeric,Spices,Supplier B,64,10.43,Warehouse 1,South,2023-10-18,62
+ORD1322,2023-11-13,P002,Dhaniya,Spices,Supplier C,89,8.46,Warehouse 2,West,2023-11-19,88
+ORD1323,2023-10-31,P003,Dhaniya,Spices,Supplier A,84,36.33,Warehouse 2,North,2023-11-02,83
+ORD1324,2023-05-27,P004,Turmeric,Condiments,Supplier A,25,20.29,Warehouse 1,East,2023-06-03,25
+ORD1325,2023-01-04,P005,Dhaniya,Spices,Supplier A,17,37.61,Warehouse 2,West,2023-01-11,16
+ORD1326,2023-02-04,P006,Red Chilli,Condiments,Supplier A,13,7.94,Warehouse 2,North,2023-02-09,11
+ORD1327,2023-07-11,P007,Red Chilli,Condiments,Supplier B,13,19.19,Warehouse 1,West,2023-07-17,12
+ORD1328,2023-02-18,P008,Dhaniya,Spices,Supplier C,65,29.28,Warehouse 2,East,2023-02-26,61
+ORD1329,2023-01-17,P009,Garam Masala,Condiments,Supplier A,34,40.58,Warehouse 1,South,2023-01-24,34
+ORD1330,2023-06-21,P000,Turmeric,Spices,Supplier B,76,19.34,Warehouse 1,East,2023-06-30,74
+ORD1331,2023-08-08,P001,Dhaniya,Condiments,Supplier C,76,33.17,Warehouse 1,North,2023-08-16,76
+ORD1332,2023-06-07,P002,Red Chilli,Condiments,Supplier C,36,44.87,Warehouse 2,North,2023-06-09,34
+ORD1333,2023-02-15,P003,Garam Masala,Condiments,Supplier C,41,32.71,Warehouse 2,South,2023-02-20,37
+ORD1334,2023-01-06,P004,Turmeric,Condiments,Supplier C,59,15.48,Warehouse 2,East,2023-01-09,59
+ORD1335,2023-04-09,P005,Garam Masala,Spices,Supplier B,70,6.1,Warehouse 1,South,2023-04-17,67
+ORD1336,2023-08-21,P006,Dhaniya,Spices,Supplier A,60,44.15,Warehouse 1,South,2023-08-28,58
+ORD1337,2023-02-06,P007,Garam Masala,Condiments,Supplier A,28,5.96,Warehouse 1,North,2023-02-08,25
+ORD1338,2023-10-07,P008,Pickles,Condiments,Supplier A,30,44.36,Warehouse 2,East,2023-10-11,30
+ORD1339,2023-12-15,P009,Turmeric,Condiments,Supplier B,14,28.8,Warehouse 2,South,2023-12-17,11
+ORD1340,2023-10-29,P000,Garam Masala,Condiments,Supplier A,91,47.26,Warehouse 2,West,2023-10-31,88
+ORD1341,2023-06-30,P001,Red Chilli,Condiments,Supplier C,51,40.95,Warehouse 2,South,2023-07-05,51
+ORD1342,2023-04-05,P002,Turmeric,Condiments,Supplier A,70,49.91,Warehouse 2,East,2023-04-08,66
+ORD1343,2023-04-09,P003,Dhaniya,Condiments,Supplier C,31,20.78,Warehouse 2,South,2023-04-13,28
+ORD1344,2023-07-07,P004,Red Chilli,Spices,Supplier C,30,39.52,Warehouse 2,North,2023-07-13,27
+ORD1345,2023-04-26,P005,Turmeric,Spices,Supplier A,79,23.09,Warehouse 2,East,2023-05-02,75
+ORD1346,2023-07-10,P006,Red Chilli,Spices,Supplier B,10,26.59,Warehouse 2,South,2023-07-18,7
+ORD1347,2023-09-10,P007,Garam Masala,Condiments,Supplier C,14,33.24,Warehouse 1,North,2023-09-12,11
+ORD1348,2023-06-10,P008,Garam Masala,Spices,Supplier B,21,44.32,Warehouse 2,East,2023-06-19,18
+ORD1349,2023-09-13,P009,Pickles,Spices,Supplier C,99,49.28,Warehouse 2,South,2023-09-18,98
+ORD1350,2023-11-19,P000,Pickles,Spices,Supplier C,55,39.57,Warehouse 1,North,2023-11-28,51
+ORD1351,2023-05-08,P001,Dhaniya,Condiments,Supplier B,43,23.8,Warehouse 2,West,2023-05-13,40
+ORD1352,2023-01-18,P002,Pickles,Condiments,Supplier C,58,23.96,Warehouse 1,West,2023-01-24,54
+ORD1353,2023-10-08,P003,Dhaniya,Spices,Supplier B,87,38.19,Warehouse 2,West,2023-10-16,85
+ORD1354,2023-08-11,P004,Pickles,Condiments,Supplier A,99,15.74,Warehouse 2,North,2023-08-19,97
+ORD1355,2023-02-23,P005,Turmeric,Spices,Supplier C,54,9.97,Warehouse 1,East,2023-03-03,51
+ORD1356,2023-02-27,P006,Dhaniya,Spices,Supplier B,36,20.96,Warehouse 2,West,2023-03-03,32
+ORD1357,2023-11-19,P007,Garam Masala,Condiments,Supplier B,82,17.93,Warehouse 2,North,2023-11-22,78
+ORD1358,2023-12-26,P008,Dhaniya,Spices,Supplier A,35,18.33,Warehouse 2,East,2023-12-30,31
+ORD1359,2023-06-23,P009,Garam Masala,Spices,Supplier A,56,15.51,Warehouse 1,North,2023-06-30,55
+ORD1360,2023-10-07,P000,Red Chilli,Spices,Supplier A,95,6.89,Warehouse 2,North,2023-10-14,93
+ORD1361,2023-04-24,P001,Garam Masala,Condiments,Supplier B,65,5.8,Warehouse 2,South,2023-05-03,61
+ORD1362,2023-10-15,P002,Dhaniya,Spices,Supplier B,72,49.45,Warehouse 2,East,2023-10-18,68
+ORD1363,2023-12-08,P003,Pickles,Spices,Supplier A,57,24.25,Warehouse 2,South,2023-12-14,56
+ORD1364,2023-05-31,P004,Turmeric,Spices,Supplier A,70,22.29,Warehouse 1,South,2023-06-03,69
+ORD1365,2023-05-07,P005,Dhaniya,Spices,Supplier A,90,35.58,Warehouse 2,East,2023-05-12,86
+ORD1366,2023-06-04,P006,Dhaniya,Spices,Supplier A,35,14.82,Warehouse 2,South,2023-06-11,35
+ORD1367,2023-09-30,P007,Garam Masala,Spices,Supplier C,45,47.75,Warehouse 1,North,2023-10-02,41
+ORD1368,2023-04-14,P008,Garam Masala,Spices,Supplier C,10,40.39,Warehouse 2,South,2023-04-16,6
+ORD1369,2023-10-26,P009,Dhaniya,Spices,Supplier C,17,9.02,Warehouse 1,North,2023-11-01,16
+ORD1370,2023-09-03,P000,Red Chilli,Spices,Supplier A,61,23.79,Warehouse 1,South,2023-09-08,60
+ORD1371,2023-06-25,P001,Pickles,Spices,Supplier A,88,44.56,Warehouse 1,West,2023-07-04,84
+ORD1372,2023-02-08,P002,Red Chilli,Condiments,Supplier A,56,47.51,Warehouse 1,West,2023-02-12,52
+ORD1373,2023-06-19,P003,Pickles,Condiments,Supplier C,65,26.03,Warehouse 2,South,2023-06-24,61
+ORD1374,2023-09-04,P004,Turmeric,Spices,Supplier C,95,32.6,Warehouse 1,West,2023-09-06,94
+ORD1375,2023-01-26,P005,Red Chilli,Spices,Supplier C,23,12.52,Warehouse 2,South,2023-01-28,19
+ORD1376,2023-12-21,P006,Turmeric,Condiments,Supplier C,99,49.6,Warehouse 2,East,2023-12-30,95
+ORD1377,2023-11-02,P007,Pickles,Spices,Supplier B,37,15.43,Warehouse 2,East,2023-11-09,34
+ORD1378,2023-01-13,P008,Red Chilli,Condiments,Supplier C,96,47.42,Warehouse 2,West,2023-01-18,96
+ORD1379,2023-11-12,P009,Red Chilli,Spices,Supplier C,87,34.23,Warehouse 1,East,2023-11-17,85
+ORD1380,2023-11-09,P000,Garam Masala,Spices,Supplier B,97,32.35,Warehouse 2,West,2023-11-11,97
+ORD1381,2023-02-05,P001,Dhaniya,Condiments,Supplier B,11,28.07,Warehouse 1,North,2023-02-09,8
+ORD1382,2023-06-22,P002,Dhaniya,Spices,Supplier B,35,15.38,Warehouse 1,West,2023-06-28,33
+ORD1383,2023-01-20,P003,Dhaniya,Condiments,Supplier A,23,12.94,Warehouse 2,North,2023-01-28,19
+ORD1384,2023-11-17,P004,Turmeric,Condiments,Supplier B,68,14.92,Warehouse 1,North,2023-11-23,65
+ORD1385,2023-09-21,P005,Pickles,Spices,Supplier C,65,13.39,Warehouse 1,East,2023-09-26,61
+ORD1386,2023-05-22,P006,Pickles,Condiments,Supplier B,16,40.08,Warehouse 2,North,2023-05-28,15
+ORD1387,2023-05-23,P007,Pickles,Spices,Supplier C,12,20.76,Warehouse 2,East,2023-05-25,9
+ORD1388,2023-04-02,P008,Dhaniya,Spices,Supplier C,32,7.6,Warehouse 1,North,2023-04-04,31
+ORD1389,2023-12-20,P009,Garam Masala,Spices,Supplier C,27,48.61,Warehouse 2,South,2023-12-29,24
+ORD1390,2023-11-18,P000,Red Chilli,Condiments,Supplier A,47,44.77,Warehouse 1,East,2023-11-23,44
+ORD1391,2023-10-15,P001,Turmeric,Spices,Supplier B,24,46.75,Warehouse 1,North,2023-10-24,23
+ORD1392,2023-08-03,P002,Pickles,Spices,Supplier A,73,49.77,Warehouse 1,North,2023-08-08,71
+ORD1393,2023-12-08,P003,Turmeric,Condiments,Supplier B,98,12.83,Warehouse 1,West,2023-12-16,98
+ORD1394,2023-02-20,P004,Red Chilli,Spices,Supplier B,37,22.83,Warehouse 1,South,2023-02-28,33
+ORD1395,2023-06-02,P005,Turmeric,Spices,Supplier A,83,39.12,Warehouse 1,West,2023-06-09,80
+ORD1396,2023-07-05,P006,Pickles,Condiments,Supplier A,48,36.32,Warehouse 1,West,2023-07-10,44
+ORD1397,2023-03-04,P007,Garam Masala,Condiments,Supplier A,66,11.93,Warehouse 1,North,2023-03-08,65
+ORD1398,2023-07-09,P008,Red Chilli,Spices,Supplier C,26,41.71,Warehouse 1,South,2023-07-15,22
+ORD1399,2023-05-05,P009,Dhaniya,Condiments,Supplier A,95,15.1,Warehouse 1,West,2023-05-10,94
+ORD1400,2023-05-30,P000,Garam Masala,Spices,Supplier A,99,15.07,Warehouse 1,North,2023-06-02,95
+ORD1401,2023-11-10,P001,Red Chilli,Condiments,Supplier B,53,29.16,Warehouse 2,North,2023-11-17,53
+ORD1402,2023-02-27,P002,Garam Masala,Spices,Supplier C,34,31.68,Warehouse 1,North,2023-03-02,34
+ORD1403,2023-12-08,P003,Pickles,Spices,Supplier A,26,31.1,Warehouse 2,North,2023-12-10,26
+ORD1404,2023-11-01,P004,Dhaniya,Spices,Supplier C,22,9.12,Warehouse 2,West,2023-11-09,22
+ORD1405,2023-06-29,P005,Turmeric,Spices,Supplier A,93,44.49,Warehouse 2,West,2023-07-05,93
+ORD1406,2023-06-19,P006,Turmeric,Condiments,Supplier A,34,16.95,Warehouse 1,West,2023-06-24,34
+ORD1407,2023-11-22,P007,Turmeric,Condiments,Supplier B,77,10.83,Warehouse 2,West,2023-11-25,76
+ORD1408,2023-09-28,P008,Dhaniya,Spices,Supplier A,19,44.99,Warehouse 2,North,2023-10-04,16
+ORD1409,2023-02-23,P009,Pickles,Spices,Supplier A,76,48.0,Warehouse 2,East,2023-02-25,72
+ORD1410,2023-04-11,P000,Red Chilli,Spices,Supplier A,27,43.8,Warehouse 2,North,2023-04-19,27
+ORD1411,2023-09-21,P001,Turmeric,Spices,Supplier A,95,41.43,Warehouse 2,North,2023-09-25,94
+ORD1412,2023-02-22,P002,Red Chilli,Condiments,Supplier B,43,34.49,Warehouse 2,East,2023-03-01,42
+ORD1413,2023-03-01,P003,Red Chilli,Condiments,Supplier B,17,29.79,Warehouse 1,East,2023-03-07,16
+ORD1414,2023-04-18,P004,Pickles,Spices,Supplier A,49,8.91,Warehouse 1,East,2023-04-24,46
+ORD1415,2023-01-05,P005,Dhaniya,Spices,Supplier C,92,23.38,Warehouse 2,South,2023-01-09,88
+ORD1416,2023-04-13,P006,Turmeric,Spices,Supplier B,51,21.77,Warehouse 2,North,2023-04-19,48
+ORD1417,2023-07-15,P007,Pickles,Spices,Supplier B,50,16.69,Warehouse 1,West,2023-07-17,48
+ORD1418,2023-09-19,P008,Dhaniya,Spices,Supplier C,15,37.55,Warehouse 1,North,2023-09-21,14
+ORD1419,2023-12-31,P009,Pickles,Spices,Supplier B,61,27.31,Warehouse 1,North,2024-01-04,59
+ORD1420,2023-12-16,P000,Red Chilli,Condiments,Supplier B,35,8.65,Warehouse 1,East,2023-12-23,35
+ORD1421,2023-02-16,P001,Garam Masala,Condiments,Supplier A,73,14.91,Warehouse 2,West,2023-02-21,73
+ORD1422,2023-12-21,P002,Garam Masala,Spices,Supplier A,68,35.75,Warehouse 1,South,2023-12-24,65
+ORD1423,2023-11-07,P003,Turmeric,Condiments,Supplier B,65,8.43,Warehouse 2,South,2023-11-12,61
+ORD1424,2023-11-04,P004,Garam Masala,Spices,Supplier C,68,43.3,Warehouse 1,East,2023-11-10,66
+ORD1425,2023-05-24,P005,Red Chilli,Spices,Supplier A,79,27.28,Warehouse 2,West,2023-05-27,75
+ORD1426,2023-09-26,P006,Dhaniya,Spices,Supplier A,42,26.63,Warehouse 2,West,2023-10-05,39
+ORD1427,2023-05-04,P007,Turmeric,Condiments,Supplier B,62,31.66,Warehouse 2,South,2023-05-08,62
+ORD1428,2023-04-16,P008,Dhaniya,Spices,Supplier A,31,42.11,Warehouse 2,North,2023-04-20,27
+ORD1429,2023-06-07,P009,Dhaniya,Spices,Supplier A,30,20.65,Warehouse 2,North,2023-06-14,26
+ORD1430,2023-05-27,P000,Red Chilli,Condiments,Supplier C,79,35.51,Warehouse 1,North,2023-05-30,79
+ORD1431,2023-05-25,P001,Red Chilli,Spices,Supplier B,79,30.46,Warehouse 2,East,2023-05-27,77
+ORD1432,2023-04-30,P002,Red Chilli,Condiments,Supplier A,13,17.02,Warehouse 1,West,2023-05-03,13
+ORD1433,2023-11-15,P003,Dhaniya,Condiments,Supplier C,84,44.54,Warehouse 1,West,2023-11-21,80
+ORD1434,2023-10-02,P004,Red Chilli,Condiments,Supplier A,71,40.88,Warehouse 2,South,2023-10-04,69
+ORD1435,2023-04-02,P005,Garam Masala,Spices,Supplier B,71,34.63,Warehouse 2,North,2023-04-10,69
+ORD1436,2023-02-27,P006,Turmeric,Spices,Supplier C,33,43.28,Warehouse 1,East,2023-03-07,33
+ORD1437,2023-12-12,P007,Dhaniya,Spices,Supplier B,64,44.03,Warehouse 2,West,2023-12-21,60
+ORD1438,2023-08-17,P008,Garam Masala,Spices,Supplier B,18,36.88,Warehouse 1,East,2023-08-25,15
+ORD1439,2023-04-27,P009,Red Chilli,Spices,Supplier A,12,42.67,Warehouse 1,South,2023-05-01,8
+ORD1440,2023-11-14,P000,Red Chilli,Spices,Supplier A,40,36.39,Warehouse 2,East,2023-11-17,39
+ORD1441,2023-10-06,P001,Turmeric,Condiments,Supplier A,49,35.61,Warehouse 2,East,2023-10-14,46
+ORD1442,2023-05-07,P002,Turmeric,Condiments,Supplier B,45,32.84,Warehouse 1,West,2023-05-12,43
+ORD1443,2023-05-09,P003,Turmeric,Condiments,Supplier C,33,38.87,Warehouse 1,West,2023-05-16,30
+ORD1444,2023-02-27,P004,Pickles,Condiments,Supplier C,15,12.14,Warehouse 1,North,2023-03-04,13
+ORD1445,2023-05-02,P005,Pickles,Condiments,Supplier A,75,44.64,Warehouse 1,North,2023-05-10,73
+ORD1446,2023-01-01,P006,Turmeric,Spices,Supplier B,93,44.23,Warehouse 1,South,2023-01-10,90
+ORD1447,2023-08-27,P007,Garam Masala,Spices,Supplier A,84,6.32,Warehouse 1,North,2023-09-03,82
+ORD1448,2023-10-17,P008,Pickles,Condiments,Supplier C,13,42.16,Warehouse 1,North,2023-10-23,11
+ORD1449,2023-04-06,P009,Turmeric,Spices,Supplier B,88,10.8,Warehouse 2,West,2023-04-11,87
+ORD1450,2023-05-06,P000,Dhaniya,Condiments,Supplier C,15,20.08,Warehouse 1,East,2023-05-15,11
+ORD1451,2023-04-28,P001,Turmeric,Condiments,Supplier A,60,38.46,Warehouse 2,North,2023-05-01,56
+ORD1452,2023-02-17,P002,Pickles,Spices,Supplier C,71,12.23,Warehouse 1,South,2023-02-20,70
+ORD1453,2023-03-30,P003,Garam Masala,Spices,Supplier C,66,41.81,Warehouse 2,South,2023-04-04,63
+ORD1454,2023-08-25,P004,Turmeric,Spices,Supplier B,75,42.45,Warehouse 1,East,2023-09-02,75
+ORD1455,2023-09-29,P005,Pickles,Spices,Supplier C,88,27.84,Warehouse 2,North,2023-10-08,88
+ORD1456,2023-07-08,P006,Garam Masala,Condiments,Supplier C,84,5.29,Warehouse 1,North,2023-07-11,84
+ORD1457,2023-07-11,P007,Turmeric,Spices,Supplier C,17,17.92,Warehouse 1,South,2023-07-17,16
+ORD1458,2023-03-10,P008,Dhaniya,Spices,Supplier A,35,32.76,Warehouse 1,North,2023-03-12,34
+ORD1459,2023-10-05,P009,Pickles,Condiments,Supplier B,60,49.15,Warehouse 2,South,2023-10-13,58
+ORD1460,2023-12-15,P000,Pickles,Spices,Supplier A,54,33.43,Warehouse 2,North,2023-12-24,54
+ORD1461,2023-09-04,P001,Turmeric,Condiments,Supplier C,53,16.69,Warehouse 2,East,2023-09-10,50
+ORD1462,2023-03-17,P002,Garam Masala,Condiments,Supplier C,14,33.53,Warehouse 1,East,2023-03-26,11
+ORD1463,2023-06-03,P003,Red Chilli,Spices,Supplier C,79,29.3,Warehouse 2,North,2023-06-10,79
+ORD1464,2023-05-24,P004,Dhaniya,Spices,Supplier C,35,40.09,Warehouse 1,West,2023-05-30,35
+ORD1465,2023-03-27,P005,Red Chilli,Spices,Supplier A,77,9.81,Warehouse 1,East,2023-04-04,77
+ORD1466,2023-07-04,P006,Red Chilli,Spices,Supplier A,28,39.25,Warehouse 2,South,2023-07-11,27
+ORD1467,2023-10-12,P007,Turmeric,Spices,Supplier C,93,29.36,Warehouse 1,South,2023-10-20,92
+ORD1468,2023-08-08,P008,Red Chilli,Spices,Supplier C,29,48.33,Warehouse 2,West,2023-08-11,28
+ORD1469,2023-03-10,P009,Garam Masala,Spices,Supplier A,21,20.38,Warehouse 1,East,2023-03-12,17
+ORD1470,2023-02-16,P000,Dhaniya,Condiments,Supplier A,56,33.47,Warehouse 2,East,2023-02-24,53
+ORD1471,2023-04-04,P001,Pickles,Condiments,Supplier A,10,46.94,Warehouse 1,North,2023-04-12,7
+ORD1472,2023-08-26,P002,Garam Masala,Condiments,Supplier C,99,9.61,Warehouse 2,East,2023-08-29,97
+ORD1473,2023-07-23,P003,Garam Masala,Condiments,Supplier C,23,47.18,Warehouse 2,East,2023-07-27,22
+ORD1474,2023-08-06,P004,Dhaniya,Spices,Supplier B,73,35.95,Warehouse 2,East,2023-08-09,69
+ORD1475,2023-12-07,P005,Dhaniya,Condiments,Supplier A,47,8.05,Warehouse 2,West,2023-12-14,43
+ORD1476,2023-02-08,P006,Red Chilli,Condiments,Supplier A,46,18.54,Warehouse 2,North,2023-02-11,43
+ORD1477,2023-04-10,P007,Turmeric,Spices,Supplier A,20,36.87,Warehouse 2,West,2023-04-13,19
+ORD1478,2023-10-16,P008,Turmeric,Spices,Supplier A,86,8.03,Warehouse 2,East,2023-10-18,84
+ORD1479,2023-09-11,P009,Garam Masala,Spices,Supplier B,12,31.2,Warehouse 1,West,2023-09-14,11
+ORD1480,2023-08-10,P000,Turmeric,Spices,Supplier C,42,20.56,Warehouse 1,South,2023-08-19,42
+ORD1481,2023-12-23,P001,Garam Masala,Spices,Supplier B,15,32.94,Warehouse 2,South,2023-12-31,14
+ORD1482,2023-01-23,P002,Dhaniya,Spices,Supplier B,59,7.06,Warehouse 2,West,2023-02-01,59
+ORD1483,2023-09-07,P003,Garam Masala,Spices,Supplier B,19,44.22,Warehouse 2,South,2023-09-09,19
+ORD1484,2023-01-10,P004,Pickles,Condiments,Supplier A,14,48.81,Warehouse 2,South,2023-01-15,12
+ORD1485,2023-09-03,P005,Pickles,Condiments,Supplier C,32,48.6,Warehouse 2,West,2023-09-07,29
+ORD1486,2023-11-21,P006,Red Chilli,Spices,Supplier B,19,38.73,Warehouse 1,West,2023-11-30,18
+ORD1487,2023-04-10,P007,Pickles,Spices,Supplier C,53,10.85,Warehouse 1,West,2023-04-12,53
+ORD1488,2023-10-17,P008,Pickles,Spices,Supplier B,11,39.12,Warehouse 2,South,2023-10-24,10
+ORD1489,2023-06-29,P009,Turmeric,Spices,Supplier B,22,6.11,Warehouse 2,West,2023-07-04,19
+ORD1490,2023-08-11,P000,Pickles,Condiments,Supplier C,49,6.0,Warehouse 1,East,2023-08-13,46
+ORD1491,2023-09-07,P001,Pickles,Spices,Supplier C,11,19.56,Warehouse 2,East,2023-09-09,7
+ORD1492,2023-05-27,P002,Dhaniya,Condiments,Supplier B,93,26.99,Warehouse 2,South,2023-05-31,90
+ORD1493,2023-04-06,P003,Garam Masala,Condiments,Supplier B,74,39.67,Warehouse 1,South,2023-04-14,72
+ORD1494,2023-09-14,P004,Turmeric,Condiments,Supplier A,72,35.75,Warehouse 2,South,2023-09-23,72
+ORD1495,2023-11-21,P005,Turmeric,Condiments,Supplier B,82,25.07,Warehouse 2,South,2023-11-28,78
+ORD1496,2023-01-04,P006,Turmeric,Spices,Supplier A,26,17.31,Warehouse 1,East,2023-01-10,24
+ORD1497,2023-01-16,P007,Pickles,Condiments,Supplier A,18,49.87,Warehouse 2,South,2023-01-25,17
+ORD1498,2023-10-07,P008,Red Chilli,Condiments,Supplier A,84,24.18,Warehouse 1,North,2023-10-13,84
+ORD1499,2023-12-02,P009,Turmeric,Spices,Supplier B,24,25.31,Warehouse 1,East,2023-12-04,21
