@@ -96,8 +96,6 @@ You can open the dashboard in Power BI Desktop or publish it to Power BI Service
 
 **Anusha Komati**  
 📍 Dallas, TX  
-🔗 [LinkedIn](#) | [Portfolio](#) | [GitHub](#)
-
 ---
 
 ## 📜 License
