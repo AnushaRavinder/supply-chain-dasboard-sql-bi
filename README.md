@@ -95,9 +95,3 @@ You can open the dashboard in Power BI Desktop or publish it to Power BI Service
 ## 👩‍💻 Author
 
 **Anusha Komati**  
-📍 Dallas, TX  
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
