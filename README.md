@@ -59,8 +59,6 @@ SQL queries were written to extract insights like:
 
 See SQL scripts in the [`/sql`](./sql) folder.
 
----
-
 ## 📊 Power BI Dashboard
 
 The Power BI dashboard visualizes:
@@ -69,19 +67,6 @@ The Power BI dashboard visualizes:
 - Trends in revenue and delivery
 - Geographic distribution of orders
 - Key operational KPIs
-
-You can open the dashboard in Power BI Desktop or publish it to Power BI Service.
-
----
-
-## 🚀 Getting Started
-
-1. Clone this repo  
-2. Load the dataset into your SQL engine or Power BI  
-3. Run the SQL scripts in `/sql`  
-4. Use the `.pbix` file (if available) to explore or build your own dashboard
-
----
 
 ## ✨ Tools Used
 
